@@ -22,6 +22,7 @@
 |------|------|
 | [clash-debug](https://github.com/VastFuture/clash-debug) | Clash Debug & Recovery Skill for opencode |
 | [vibe-viewer](https://github.com/VastFuture/vibe-viewer) | 本地 Markdown 浏览器，beautiful-mermaid 渲染 + 实时重载 ⭐1 |
+| [agy-cli-skill](https://github.com/VastFuture/agy-cli-skill) | Orchestrate Google Antigravity CLI (agy) — 并行执行、多模型路由、上下文注入 ⭐NEW |
 | [remote-server-management](#) (本仓目录) | SSH 远程服务器管理 Skill — 引导式 SSH 密钥配置 + 8 种诊断操作 + 9 个生产坑 + 11 个管理命令，全程占位符可安全提交 |
 
 ### 🧩 Skill Collections（官方分类·自创）
