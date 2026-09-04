@@ -37,17 +37,37 @@ allowed-tools:
 
 ## 🚀 快速使用
 
-### 1. PowerShell (Windows)
+### 1. 零参数一键安装（默认预设：内置自动安装 backlink_skills + yan-skills）
 ```powershell
-# 在当前项目根目录下运行
+# Windows
+& "scripts/install-skills.ps1"
+
+# Linux / macOS
+bash scripts/install-skills.sh
+```
+
+### 2. 指定预设套件
+- **SEO 站长套件 (默认)**：`backlink_skills` + `yan-skills`
+- **开发工程套件**：`vast-dev-skill`
+- **全量核心套件**：`backlink_skills` + `yan-skills` + `vast-dev-skill`
+
+```powershell
+# 安装开发套件
+& "scripts/install-skills.ps1" -Preset dev
+
+# 安装全量套件到指定目录
+& "scripts/install-skills.ps1" -Preset all -TargetDir ".agents/skills"
+```
+
+### 3. 自定义仓库安装
+```powershell
+# PowerShell (Windows)
 & "scripts/install-skills.ps1" -RepoUrls @(
     "https://github.com/VastFuture/backlink_skills",
     "https://github.com/VastFuture/yan-skills"
 ) -TargetDir ".agents/skills"
-```
 
-### 2. Bash (Linux / macOS / Git Bash)
-```bash
+# Bash (Linux / macOS / Git Bash)
 bash scripts/install-skills.sh \
   --target ".agents/skills" \
   "https://github.com/VastFuture/backlink_skills" \

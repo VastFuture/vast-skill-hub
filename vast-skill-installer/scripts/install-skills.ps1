@@ -1,12 +1,41 @@
 param (
-    [Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $false)]
     [string[]]$RepoUrls,
+
+    [Parameter(Mandatory = $false)]
+    [ValidateSet("seo", "dev", "all", "custom")]
+    [string]$Preset = "seo",
 
     [Parameter(Mandatory = $false)]
     [string]$TargetDir = ".agents/skills"
 )
 
 $ErrorActionPreference = "Stop"
+
+# 内置预设技能库字典
+$Presets = @{
+    "seo" = @(
+        "https://github.com/VastFuture/backlink_skills",
+        "https://github.com/VastFuture/yan-skills"
+    )
+    "dev" = @(
+        "https://github.com/VastFuture/vast-dev-skill"
+    )
+    "all" = @(
+        "https://github.com/VastFuture/backlink_skills",
+        "https://github.com/VastFuture/yan-skills",
+        "https://github.com/VastFuture/vast-dev-skill"
+    )
+}
+
+# 决策最终待安装的 URL 列表
+$FinalUrls = @()
+if ($RepoUrls -and $RepoUrls.Count -gt 0) {
+    $FinalUrls = $RepoUrls
+} else {
+    Write-Host "[Info] No specific RepoUrls provided. Using default preset: [$Preset]" -ForegroundColor Yellow
+    $FinalUrls = $Presets[$Preset]
+}
 
 $ResolvedTarget = Resolve-Path -Path $TargetDir -ErrorAction SilentlyContinue
 if (-not $ResolvedTarget) {
@@ -20,7 +49,7 @@ $TempBase = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), "vast-ski
 New-Item -ItemType Directory -Path $TempBase -Force | Out-Null
 
 try {
-    foreach ($url in $RepoUrls) {
+    foreach ($url in $FinalUrls) {
         $repoName = ($url.TrimEnd('/') -split '/')[-1].Replace(".git", "")
         Write-Host "==> Downloading $repoName from $url..." -ForegroundColor Cyan
 
