@@ -24,6 +24,7 @@
 | [vibe-viewer](https://github.com/VastFuture/vibe-viewer) | 本地 Markdown 浏览器，beautiful-mermaid 渲染 + 实时重载 ⭐1 |
 | [agy-cli-skill](https://github.com/VastFuture/agy-cli-skill) | Orchestrate Google Antigravity CLI (agy) — 并行执行、多模型路由、上下文注入 ⭐NEW |
 | [opencode-model-fallback](https://github.com/VastFuture/opencode-model-fallback) | Automatic model fallback for OpenCode — 自动切换备用模型，零停机时间 ⭐NEW |
+| [opencode-plugins-setup](#) (本仓目录) | OpenCode 核心生态插件一键安装 Skill — 模型降级/企微通知/CC桥接/Ralph自循环一键配置 ⭐NEW |
 | [remote-server-management](#) (本仓目录) | SSH 远程服务器管理 Skill — 引导式 SSH 密钥配置 + 8 种诊断操作 + 9 个生产坑 + 11 个管理命令，全程占位符可安全提交 |
 | [tmux-agy-workflow](#) (本仓目录) | 使用 tmux 持久化 agy 会话 — 断连恢复、僵尸清理、多任务并行管理 ⭐NEW |
 
@@ -217,9 +218,9 @@
 | 分类 | 仓库数 | 自创 | 外部 |
 |------|--------|------|------|
 | Self-made — 图像生成 Skill | 2 | 2 | 0 |
-| Self-made — 工程 & DevOps Skill | 2 | 2 | 0 |
+| Self-made — 工程 & DevOps Skill | 3 | 3 | 0 |
 | Self-made — Skill Collections（官方分类） | 17 | 17 | 0 |
-| **Self-made 小计** | **21** | **21** | **0** |
+| **Self-made 小计** | **22** | **22** | **0** |
 | Agent Harness & Framework | 16 | 0 | 16 |
 | Skill Collections（外部） | 8 | 0 | 8 |
 | Image & Design Skills（外部） | 1 | 0 | 1 |
@@ -232,7 +233,7 @@
 | Content Tools | 4 | 0 | 4 |
 | Infrastructure & Tools | 21 | 0 | 21 |
 | **External 小计** | **85** | **0** | **85** |
-| **总计** | **106** | **21** | **85** |
+| **总计** | **107** | **22** | **85** |
 
 ---
 
@@ -248,6 +249,6 @@
 
 ---
 
-> 📅 最后更新：2026-08-26
+> 📅 最后更新：2026-09-04
 > 🏷️ Organization: [github.com/VastFuture](https://github.com/VastFuture)
 > 👤 Self-made 统计基于 GitHub commit author 历史分析
