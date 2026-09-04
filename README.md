@@ -27,6 +27,7 @@
 | [opencode-plugins-setup](#) (本仓目录) | OpenCode 核心生态插件一键安装 Skill — 模型降级/企微通知/CC桥接/Ralph自循环一键配置 ⭐NEW |
 | [remote-server-management](#) (本仓目录) | SSH 远程服务器管理 Skill — 引导式 SSH 密钥配置 + 8 种诊断操作 + 9 个生产坑 + 11 个管理命令，全程占位符可安全提交 |
 | [tmux-agy-workflow](#) (本仓目录) | 使用 tmux 持久化 agy 会话 — 断连恢复、僵尸清理、多任务并行管理 ⭐NEW |
+| [vast-skill-installer](#) (本仓目录) | 跨仓库多源 Agent Skills 一键安装 Skill — 自动化浅克隆、剥离 git 污染、规范化部署到 .agents/skills 或 .claude/skills ⭐NEW |
 
 ### 🧩 Skill Collections（官方分类·自创）
 
