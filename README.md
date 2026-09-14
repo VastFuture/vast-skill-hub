@@ -57,6 +57,27 @@
 
 > 以下仓库由外部贡献者创建、维护，或由 GitHub 用户提交 PR 共同维护。
 
+### 🚀 出海 SEO & Agent Skills（社群实战 Fork 镜像）
+
+> 以下仓库为 2026-09-14 从哥飞社群实战开发者处全量 Fork 镜像的出海 SEO / Agent Skill（原始清单考据：[vast-site-studio · agent-skill-list.md](https://github.com/VastFuture/vast-site-studio/blob/main/docs/template/agent-skill-list.md)）。原仓库失效时可从镜像直接使用。
+
+| 仓库 (VastFuture 镜像) | 原仓库 / 作者 | 描述 |
+|------|------|---------|
+| [Awesome_SEO_Writing_Skill](https://github.com/VastFuture/Awesome_SEO_Writing_Skill) | [flaqai/Awesome_SEO_Writing_Skill](https://github.com/flaqai/Awesome_SEO_Writing_Skill) | HelloLeo 出品 — Codex 全流程 SEO 写作（框架→收集→生成→审计→配图→去 AI 化） |
+| [awesome_codex_skills](https://github.com/VastFuture/awesome_codex_skills) | [flaqai/awesome_codex_skills](https://github.com/flaqai/awesome_codex_skills) | HelloLeo 系 Codex Skill 合集 |
+| [claude-seo](https://github.com/VastFuture/claude-seo) | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | `/seo audit <url>` 深度 SEO 审计，10 分钟出评分与问题清单 |
+| [onpage-seo-audit](https://github.com/VastFuture/onpage-seo-audit) | [linhan-dev/onpage-seo-audit](https://github.com/linhan-dev/onpage-seo-audit) | 页面级 SEO 深度体检，问题自动归档到 issues/ 目录 |
+| [codexseoskill](https://github.com/VastFuture/codexseoskill) | [wuj303098-hash/codexseoskill](https://github.com/wuj303098-hash/codexseoskill) | 刻奇出品 — 防 Codex 把内部 SEO 策略/提示词写进前端页面 |
+| [research-website-demand](https://github.com/VastFuture/research-website-demand) | [cxf37905-max/research-website-demand](https://github.com/cxf37905-max/research-website-demand) | 输入竞品站，全网调研目标用户真实讨论与痛点，定位产品切入点 |
+| [startup-email-finder](https://github.com/VastFuture/startup-email-finder) | [Elwynnn-AI/startup-email-finder](https://github.com/Elwynnn-AI/startup-email-finder) | 初创团队获客邮箱挖掘，过滤公共邮箱只留精准企业邮箱 |
+| [web-analytics-agent-skill](https://github.com/VastFuture/web-analytics-agent-skill) | [SeoToolkit/web-analytics-agent-skill](https://github.com/SeoToolkit/web-analytics-agent-skill) | 每天自动拉取 GSC / GA4 数据并 AI 分析异动 |
+| [dashloom](https://github.com/VastFuture/dashloom) | [dashloom-dev/dashloom](https://github.com/dashloom-dev/dashloom) | 多源数据中台（GA/GSC/Stripe/GitHub/Vercel），AI 定期报告与洞察 |
+| [adsense-site-auditor-skill](https://github.com/VastFuture/adsense-site-auditor-skill) | [yantoumu/adsense-site-auditor-skill](https://github.com/yantoumu/adsense-site-auditor-skill) | AdSense 上线前合规预审，两三次提交必过 |
+| [makethisbetter-js](https://github.com/VastFuture/makethisbetter-js) | [makethisbetter/makethisbetter-js](https://github.com/makethisbetter/makethisbetter-js) | 用户反馈收集完整 Agent 工作流（Widget + CLI + MCP + Skill） |
+| [claw-code](https://github.com/VastFuture/claw-code) | 原地址 [instructkr/claude-code](https://github.com/instructkr/claude-code)（已迁移至 [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)） | Claude Code 开源实现 / 逆向分析 |
+
+---
+
 ### 🤖 Agent Harness & Framework
 
 | 仓库 | 描述 | 主要作者 |
@@ -222,6 +243,7 @@
 | Self-made — 工程 & DevOps Skill | 3 | 3 | 0 |
 | Self-made — Skill Collections（官方分类） | 17 | 17 | 0 |
 | **Self-made 小计** | **22** | **22** | **0** |
+| 出海 SEO & Agent Skills（社群实战 Fork） | 13 | 0 | 13 |
 | Agent Harness & Framework | 16 | 0 | 16 |
 | Skill Collections（外部） | 8 | 0 | 8 |
 | Image & Design Skills（外部） | 1 | 0 | 1 |
@@ -233,8 +255,8 @@
 | API & Proxy | 4 | 0 | 4 |
 | Content Tools | 4 | 0 | 4 |
 | Infrastructure & Tools | 21 | 0 | 21 |
-| **External 小计** | **85** | **0** | **85** |
-| **总计** | **107** | **22** | **85** |
+| **External 小计** | **98** | **0** | **98** |
+| **总计** | **120** | **22** | **98** |
 
 ---
 
@@ -244,12 +266,13 @@
 - **自创图像生成** → [agnes-image-gen](https://github.com/VastFuture/agnes-image-gen) / [sensenova-image-gen](https://github.com/VastFuture/sensenova-image-gen)
 - **自创 Skill 集** → [pm-skills](https://github.com/VastFuture/pm-skills) / [dev-skills](https://github.com/VastFuture/dev-skills) / [write-skills](https://github.com/VastFuture/write-skills) / [image-skills](https://github.com/VastFuture/image-skills)
 - **外部核心框架** → [deer-flow](https://github.com/VastFuture/deer-flow) / [ECC](https://github.com/VastFuture/ECC) / [gbrain](https://github.com/VastFuture/gbrain)
+- **出海 SEO Skill 镜像** → [Awesome_SEO_Writing_Skill](https://github.com/VastFuture/Awesome_SEO_Writing_Skill) / [backlink_skills](https://github.com/VastFuture/backlink_skills) / [claude-seo](https://github.com/VastFuture/claude-seo) / [dashloom](https://github.com/VastFuture/dashloom)
 - **外部知识库** → [llm-wiki-skills](https://github.com/VastFuture/llm-wiki-skills) / [llm-wiki-agent](https://github.com/VastFuture/llm-wiki-agent)
 - **外部企业级 Agent** → [ragent](https://github.com/VastFuture/ragent) / [enterprise-ai-support-agent](https://github.com/VastFuture/enterprise-ai-support-agent)
 - **外部 API 聚合** → [CLIProxyAPI](https://github.com/VastFuture/CLIProxyAPI) / [OmniRoute](https://github.com/VastFuture/OmniRoute)
 
 ---
 
-> 📅 最后更新：2026-09-04
+> 📅 最后更新：2026-09-14
 > 🏷️ Organization: [github.com/VastFuture](https://github.com/VastFuture)
 > 👤 Self-made 统计基于 GitHub commit author 历史分析
