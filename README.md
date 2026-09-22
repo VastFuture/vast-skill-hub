@@ -31,6 +31,14 @@
 | [tmux-qoder-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Qoder CLI(qodercli) 会话 — 断连恢复、对话恢复(--continue/--session-id)、--worktree 隔离并行、僵尸清理 ⭐NEW |
 | [vast-skill-installer](#) (本仓目录) | 跨仓库多源 Agent Skills 一键安装 Skill — 自动化浅克隆、剥离 git 污染、规范化部署到 .agents/skills 或 .claude/skills ⭐NEW |
 
+### 🗺️ 原创可视化 & 建模 Skill
+
+| 仓库 | 描述 |
+|------|------|
+| [visual-model-skill](https://github.com/VastFuture/visual-model-skill) | 可视化建模 Skill — 把任意复杂系统/知识领域转成可交互 SVG / D3.js 图；内置 KSB / SAM·SCBRD / SBR / MBSE 四套规范自动路由（规范正文出自 sharptoolbox，CC BY 4.0）⭐NEW |
+
+---
+
 ### 🧩 Skill Collections（官方分类·自创）
 
 | 仓库 | 类别 | 创建时间 | 描述 |
@@ -115,7 +123,6 @@
 | [phuryn-pm-skills](https://github.com/VastFuture/phuryn-pm-skills) | PM Skills Marketplace — 100+ agentic skills | — |
 | [database-skills](https://github.com/VastFuture/database-skills) | Skills for AI agents working with databases | Lance Martin / PlanetScale |
 | [prompt-skills](https://github.com/VastFuture/prompt-skills) | (external sync) | — |
-| [visual-model](https://github.com/VastFuture/visual-model) | 可视化建模提示词规范集合 — KSB（知识体系三层建模）/ SAM·SCBRD（五维系统架构）/ SBR（结构-行为-关系）/ MBSE（SysML）四套中文规范，含 131 个样例；**已由 VastFuture 增补 SKILL.md 封装为可直接安装的 Claude Code Skill** ⭐NEW | sharptoolbox |
 
 ---
 
@@ -244,11 +251,12 @@
 |------|--------|------|------|
 | Self-made — 图像生成 Skill | 2 | 2 | 0 |
 | Self-made — 工程 & DevOps Skill | 3 | 3 | 0 |
+| Self-made — 可视化 & 建模 Skill | 1 | 1 | 0 |
 | Self-made — Skill Collections（官方分类） | 17 | 17 | 0 |
-| **Self-made 小计** | **22** | **22** | **0** |
+| **Self-made 小计** | **23** | **23** | **0** |
 | 出海 SEO & Agent Skills（社群实战 Fork） | 13 | 0 | 13 |
 | Agent Harness & Framework | 16 | 0 | 16 |
-| Skill Collections（外部） | 9 | 0 | 9 |
+| Skill Collections（外部） | 8 | 0 | 8 |
 | Image & Design Skills（外部） | 1 | 0 | 1 |
 | Content & Writing Skills | 2 | 0 | 2 |
 | Browser & Web Automation | 8 | 0 | 8 |
@@ -258,8 +266,8 @@
 | API & Proxy | 4 | 0 | 4 |
 | Content Tools | 4 | 0 | 4 |
 | Infrastructure & Tools | 21 | 0 | 21 |
-| **External 小计** | **99** | **0** | **99** |
-| **总计** | **120** | **22** | **99** |
+| **External 小计** | **98** | **0** | **98** |
+| **总计** | **121** | **23** | **98** |
 
 ---
 
@@ -267,6 +275,7 @@
 
 - **自创 Skill 入口** → [all-skills](https://github.com/VastFuture/all-skills) / [vast-dev-skill](https://github.com/VastFuture/vast-dev-skill)
 - **自创图像生成** → [agnes-image-gen](https://github.com/VastFuture/agnes-image-gen) / [sensenova-image-gen](https://github.com/VastFuture/sensenova-image-gen)
+- **自创可视化建模** → [visual-model-skill](https://github.com/VastFuture/visual-model-skill)
 - **自创 Skill 集** → [pm-skills](https://github.com/VastFuture/pm-skills) / [dev-skills](https://github.com/VastFuture/dev-skills) / [write-skills](https://github.com/VastFuture/write-skills) / [image-skills](https://github.com/VastFuture/image-skills)
 - **外部核心框架** → [deer-flow](https://github.com/VastFuture/deer-flow) / [ECC](https://github.com/VastFuture/ECC) / [gbrain](https://github.com/VastFuture/gbrain)
 - **出海 SEO Skill 镜像** → [Awesome_SEO_Writing_Skill](https://github.com/VastFuture/Awesome_SEO_Writing_Skill) / [backlink_skills](https://github.com/VastFuture/backlink_skills) / [claude-seo](https://github.com/VastFuture/claude-seo) / [dashloom](https://github.com/VastFuture/dashloom)
@@ -276,6 +285,6 @@
 
 ---
 
-> 📅 最后更新：2026-09-14
+> 📅 最后更新：2026-09-22
 > 🏷️ Organization: [github.com/VastFuture](https://github.com/VastFuture)
 > 👤 Self-made 统计基于 GitHub commit author 历史分析
