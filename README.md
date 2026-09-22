@@ -115,6 +115,7 @@
 | [phuryn-pm-skills](https://github.com/VastFuture/phuryn-pm-skills) | PM Skills Marketplace — 100+ agentic skills | — |
 | [database-skills](https://github.com/VastFuture/database-skills) | Skills for AI agents working with databases | Lance Martin / PlanetScale |
 | [prompt-skills](https://github.com/VastFuture/prompt-skills) | (external sync) | — |
+| [visual-model](https://github.com/VastFuture/visual-model) | 可视化建模提示词规范集合 — KSB（知识体系三层建模）/ SAM·SCBRD（五维系统架构）/ SBR（结构-行为-关系）/ MBSE（SysML）四套中文规范，含 131 个样例；**已由 VastFuture 增补 SKILL.md 封装为可直接安装的 Claude Code Skill** ⭐NEW | sharptoolbox |
 
 ---
 
@@ -247,7 +248,7 @@
 | **Self-made 小计** | **22** | **22** | **0** |
 | 出海 SEO & Agent Skills（社群实战 Fork） | 13 | 0 | 13 |
 | Agent Harness & Framework | 16 | 0 | 16 |
-| Skill Collections（外部） | 8 | 0 | 8 |
+| Skill Collections（外部） | 9 | 0 | 9 |
 | Image & Design Skills（外部） | 1 | 0 | 1 |
 | Content & Writing Skills | 2 | 0 | 2 |
 | Browser & Web Automation | 8 | 0 | 8 |
@@ -257,8 +258,8 @@
 | API & Proxy | 4 | 0 | 4 |
 | Content Tools | 4 | 0 | 4 |
 | Infrastructure & Tools | 21 | 0 | 21 |
-| **External 小计** | **98** | **0** | **98** |
-| **总计** | **120** | **22** | **98** |
+| **External 小计** | **99** | **0** | **99** |
+| **总计** | **120** | **22** | **99** |
 
 ---
 
