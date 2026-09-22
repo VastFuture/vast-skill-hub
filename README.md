@@ -29,6 +29,7 @@
 | [tmux-agy-workflow](#) (本仓目录) | 使用 tmux 持久化 agy 会话 — 断连恢复、僵尸清理、多任务并行管理 ⭐NEW |
 | [tmux-kiro-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Kiro CLI 会话 — 断连恢复、对话恢复(--resume/--resume-id)、并行任务、僵尸清理 ⭐NEW |
 | [tmux-qoder-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Qoder CLI(qodercli) 会话 — 断连恢复、对话恢复(--continue/--session-id)、--worktree 隔离并行、僵尸清理 ⭐NEW |
+| [vast-tailscale](https://github.com/VastFuture/vast-tailscale) | Tailscale 极简网络管理与跨设备互通技能 — 登录认证、状态查询、Taildrop 传输与故障排查 ⭐NEW |
 | [vast-skill-installer](#) (本仓目录) | 跨仓库多源 Agent Skills 一键安装 Skill — 自动化浅克隆、剥离 git 污染、规范化部署到 .agents/skills 或 .claude/skills ⭐NEW |
 
 ### 🗺️ 原创可视化 & 建模 Skill
