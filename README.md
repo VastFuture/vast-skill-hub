@@ -132,6 +132,7 @@
 | 仓库 | 描述 | 主要作者 |
 |------|------|---------|
 | [Kami](https://github.com/VastFuture/Kami) | 👩‍🚒 Good content deserves good paper | Tw93 |
+| [ui-skills](https://github.com/VastFuture/ui-skills) | Skills for Design Engineers (UI/UX 规范、基线检查、无障碍修复、动效性能优化、DESIGN.md 生成) | [ibelick](https://github.com/ibelick) |
 
 ---
 
