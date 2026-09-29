@@ -38,7 +38,7 @@
 |------|------|
 | [visual-model-skill](https://github.com/VastFuture/visual-model-skill) | 可视化建模 Skill — 把任意复杂系统/知识领域转成可交互 SVG / D3.js 图；内置 KSB / SAM·SCBRD / SBR / MBSE 四套规范自动路由（规范正文出自 sharptoolbox，CC BY 4.0）⭐NEW |
 | [knowledge-map-extractor](https://github.com/VastFuture/knowledge-map-extractor) | 文章知识地图萃取 Skill — 将长文/方法论萃取为静态知识树、动态流程轨道、跨线映射和反馈回路，并生成规范 JSON 与交互 HTML ⭐NEW |
-| [drilldown-diagram](https://github.com/VastFuture/drilldown-diagram) | 大型配置（YAML/DSL/JSON）→ 单文件可点击下钻的 HTML 图：宏观一张图 → 分组页 → 节点详情页，hash 深链可分享；沿用 html-diagram 通用约定（单文件、内联 CSS/JS、无构建、无外部服务）⭐NEW |
+| [drilldown-diagram](https://github.com/VastFuture/drilldown-diagram) | 大型配置（YAML/DSL/JSON）→ 单文件可点击下钻的 HTML 图：宏观一张图 → 分组页 → 节点详情页，hash 深链可分享；沿用 [plannotator/effective-html](https://github.com/plannotator/effective-html) 通用 HTML artifacts 约定（单文件、内联 CSS/JS、无构建、无外部服务）⭐NEW |
 
 ---
 
