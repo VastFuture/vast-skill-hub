@@ -37,6 +37,7 @@
 | 仓库 | 描述 |
 |------|------|
 | [visual-model-skill](https://github.com/VastFuture/visual-model-skill) | 可视化建模 Skill — 把任意复杂系统/知识领域转成可交互 SVG / D3.js 图；内置 KSB / SAM·SCBRD / SBR / MBSE 四套规范自动路由（规范正文出自 sharptoolbox，CC BY 4.0）⭐NEW |
+| [knowledge-map-extractor](https://github.com/VastFuture/knowledge-map-extractor) | 文章知识地图萃取 Skill — 将长文/方法论萃取为静态知识树、动态流程轨道、跨线映射和反馈回路，并生成规范 JSON 与交互 HTML ⭐NEW |
 
 ---
 
@@ -253,9 +254,9 @@
 |------|--------|------|------|
 | Self-made — 图像生成 Skill | 2 | 2 | 0 |
 | Self-made — 工程 & DevOps Skill | 3 | 3 | 0 |
-| Self-made — 可视化 & 建模 Skill | 1 | 1 | 0 |
+| Self-made — 可视化 & 建模 Skill | 2 | 2 | 0 |
 | Self-made — Skill Collections（官方分类） | 17 | 17 | 0 |
-| **Self-made 小计** | **23** | **23** | **0** |
+| **Self-made 小计** | **24** | **24** | **0** |
 | 出海 SEO & Agent Skills（社群实战 Fork） | 13 | 0 | 13 |
 | Agent Harness & Framework | 16 | 0 | 16 |
 | Skill Collections（外部） | 8 | 0 | 8 |
@@ -269,7 +270,7 @@
 | Content Tools | 4 | 0 | 4 |
 | Infrastructure & Tools | 21 | 0 | 21 |
 | **External 小计** | **98** | **0** | **98** |
-| **总计** | **121** | **23** | **98** |
+| **总计** | **122** | **24** | **98** |
 
 ---
 
@@ -277,7 +278,7 @@
 
 - **自创 Skill 入口** → [all-skills](https://github.com/VastFuture/all-skills) / [vast-dev-skill](https://github.com/VastFuture/vast-dev-skill)
 - **自创图像生成** → [agnes-image-gen](https://github.com/VastFuture/agnes-image-gen) / [sensenova-image-gen](https://github.com/VastFuture/sensenova-image-gen)
-- **自创可视化建模** → [visual-model-skill](https://github.com/VastFuture/visual-model-skill)
+- **自创可视化建模** → [visual-model-skill](https://github.com/VastFuture/visual-model-skill) / [knowledge-map-extractor](https://github.com/VastFuture/knowledge-map-extractor)
 - **自创 Skill 集** → [pm-skills](https://github.com/VastFuture/pm-skills) / [dev-skills](https://github.com/VastFuture/dev-skills) / [write-skills](https://github.com/VastFuture/write-skills) / [image-skills](https://github.com/VastFuture/image-skills)
 - **外部核心框架** → [deer-flow](https://github.com/VastFuture/deer-flow) / [ECC](https://github.com/VastFuture/ECC) / [gbrain](https://github.com/VastFuture/gbrain)
 - **出海 SEO Skill 镜像** → [Awesome_SEO_Writing_Skill](https://github.com/VastFuture/Awesome_SEO_Writing_Skill) / [backlink_skills](https://github.com/VastFuture/backlink_skills) / [claude-seo](https://github.com/VastFuture/claude-seo) / [dashloom](https://github.com/VastFuture/dashloom)
@@ -287,6 +288,6 @@
 
 ---
 
-> 📅 最后更新：2026-09-22
+> 📅 最后更新：2026-09-29
 > 🏷️ Organization: [github.com/VastFuture](https://github.com/VastFuture)
 > 👤 Self-made 统计基于 GitHub commit author 历史分析
