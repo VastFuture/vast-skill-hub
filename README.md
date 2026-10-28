@@ -35,6 +35,11 @@
 | [paseo-kiro-task-runner](paseo-kiro-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Kiro CLI 后台任务 — Planner/Guide 模式、权限确认与最小权限边界 ⭐NEW |
 | [paseo-qoder-task-runner](paseo-qoder-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Qoder 后台任务 — Plan/权限模式、脏工作树与副作用保护 ⭐NEW |
 | [paseo-agy-task-runner](paseo-agy-task-runner/) (本仓目录) | 通过 Paseo 的 antigravity Provider 创建和监督 AGY 后台任务 — full-access 高权限安全边界 ⭐NEW |
+| [orca-codex-task-runner](orca-codex-task-runner/) (本仓目录) | 通过 Orca 原生 `codex` Agent 交接或监督 Codex 任务 — worktree、Prompt 投递、Dispatch 与独立复核 ⭐NEW |
+| [orca-opencode-task-runner](orca-opencode-task-runner/) (本仓目录) | 通过 Orca 原生 `opencode` Agent 交接或监督 OpenCode 任务 — 账号/模型就绪、worktree 与结果复核 ⭐NEW |
+| [orca-agy-task-runner](orca-agy-task-runner/) (本仓目录) | 通过 Orca 原生 `antigravity` Agent 交接或监督 AGY 任务 — 高权限边界与副作用保护 ⭐NEW |
+| [orca-kiro-task-runner](orca-kiro-task-runner/) (本仓目录) | 通过 Orca Terminal 托管 `kiro-cli` — TUI 读屏、Prompt 投递与 `worker-start --terminal` 监督 ⭐NEW |
+| [orca-qoder-task-runner](orca-qoder-task-runner/) (本仓目录) | 通过 Orca Terminal 托管 `qodercli` — 权限/模式识别、Prompt 投递与 Dispatch 监督 ⭐NEW |
 | [vast-tailscale](https://github.com/VastFuture/vast-tailscale) | Tailscale 极简网络管理与跨设备互通技能 — 登录认证、状态查询、Taildrop 传输与故障排查 ⭐NEW |
 | [vast-skill-installer](#) (本仓目录) | 跨仓库多源 Agent Skills 一键安装 Skill — 自动化浅克隆、剥离 git 污染、规范化部署到 .agents/skills 或 .claude/skills ⭐NEW |
 
