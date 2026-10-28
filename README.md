@@ -30,6 +30,11 @@
 | [tmux-kiro-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Kiro CLI 会话 — 断连恢复、对话恢复(--resume/--resume-id)、并行任务、僵尸清理 ⭐NEW |
 | [tmux-qoder-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Qoder CLI(qodercli) 会话 — 断连恢复、对话恢复(--continue/--session-id)、--worktree 隔离并行、僵尸清理 ⭐NEW |
 | [tmux-opencode-workflow](#) (本仓目录) | 使用 tmux 持久化 OpenCode TUI/CLI 会话 — 断连恢复、会话恢复(--continue/--session/--fork)、--mini 轻量模式、并行任务、僵尸清理 ⭐NEW |
+| [paseo-codex-task-runner](paseo-codex-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Codex 后台编码任务 — daemon/Provider 检查、脏工作树保护、阻塞等待与独立复核 ⭐NEW |
+| [paseo-opencode-task-runner](paseo-opencode-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 OpenCode 后台任务 — Agent 模式、明确 cwd、安全等待与结果复核 ⭐NEW |
+| [paseo-kiro-task-runner](paseo-kiro-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Kiro CLI 后台任务 — Planner/Guide 模式、权限确认与最小权限边界 ⭐NEW |
+| [paseo-qoder-task-runner](paseo-qoder-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Qoder 后台任务 — Plan/权限模式、脏工作树与副作用保护 ⭐NEW |
+| [paseo-agy-task-runner](paseo-agy-task-runner/) (本仓目录) | 通过 Paseo 的 antigravity Provider 创建和监督 AGY 后台任务 — full-access 高权限安全边界 ⭐NEW |
 | [vast-tailscale](https://github.com/VastFuture/vast-tailscale) | Tailscale 极简网络管理与跨设备互通技能 — 登录认证、状态查询、Taildrop 传输与故障排查 ⭐NEW |
 | [vast-skill-installer](#) (本仓目录) | 跨仓库多源 Agent Skills 一键安装 Skill — 自动化浅克隆、剥离 git 污染、规范化部署到 .agents/skills 或 .claude/skills ⭐NEW |
 
@@ -290,6 +295,6 @@
 
 ---
 
-> 📅 最后更新：2026-09-29
+> 📅 最后更新：2026-10-28
 > 🏷️ Organization: [github.com/VastFuture](https://github.com/VastFuture)
 > 👤 Self-made 统计基于 GitHub commit author 历史分析
