@@ -90,5 +90,3 @@ description: Use when creating, supervising, waiting for, or reviewing a Codex c
 - 不默认授权提交、推送、部署、生产写入或停止共享服务。
 - 不覆盖用户改动，不删除任务现场。
 - 不把“任务已创建”或“Agent 已完成”写成“修复已验证”。
-
-完整运维说明：`/home/fenghaolin/workspace/prj/develop/openai/ai-dev-log/ops/paseo/creating-codex-tasks-with-paseo.md`。

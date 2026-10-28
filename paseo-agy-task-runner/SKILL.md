@@ -68,5 +68,3 @@ description: Use when creating, supervising, waiting for, or reviewing an Antigr
 - `full-access` 权限很高，Prompt 约束不能替代 OS、凭据和网络隔离。
 - Paseo Agent 与 AGY CLI conversation 是不同会话层，不同时恢复或操作同一任务。
 - 不因任务无输出就清理 AGY presence lock 或杀进程；先用 Paseo 的 inspect 和有界 logs 判断。
-
-相关 CLI 语义参考真源 Skill：`tmux-agy-workflow`；Paseo 创建流程参考 `/home/fenghaolin/workspace/prj/develop/openai/ai-dev-log/ops/paseo/creating-codex-tasks-with-paseo.md`。

@@ -73,5 +73,3 @@ Paseo 中的 Provider ID 是 `kiro`，指向 Kiro CLI，不是 Kiro IDE。先核
 - 权限弹窗持续出现时，先检查 Provider 启动参数与 `--trust-all-tools` 配置，不重复创建任务。
 - `--trust-all-tools` 等同放开任意工具；安全边界必须靠最小权限环境和 Prompt 约束守住。
 - 不把 Paseo Agent、Kiro 对话和 tmux 会话混为一谈，也不要同时恢复同一任务。
-
-完整权限排障：`/home/fenghaolin/workspace/prj/develop/openai/ai-dev-log/ops/paseo/kiro-cli-disable-confirmation.md`。

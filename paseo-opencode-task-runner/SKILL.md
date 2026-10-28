@@ -77,7 +77,5 @@ Paseo 中的 Provider ID 是 `opencode`。先验证 daemon、Provider 和绝对 
 
 - OpenCode Provider 的会话由 Paseo 管理；不要同时用 tmux/OpenCode CLI 恢复同一会话。
 - 自定义模式会随 OpenCode 配置变化，始终以当前 Provider 清单为准。
-- OpenCode helper 出现 `session.create timed out` 或 first-record watchdog 时，先按 Paseo OpenCode 排障文档诊断，不要反复创建新任务。
+- OpenCode helper 出现 `session.create timed out` 或 first-record watchdog 时，检查 `paseo status --json`、`paseo provider ls --json` 和 `~/.paseo/daemon.log` 中对应时间窗的错误；不要反复创建新任务。
 - 不用 `paseo stop --all` 或 `--cwd` 代替明确 Agent ID。
-
-完整运维说明：`/home/fenghaolin/workspace/prj/develop/openai/ai-dev-log/ops/paseo/creating-codex-tasks-with-paseo.md`；OpenCode 排障：同目录 `opencode-troubleshooting.md` 与 `session-create-30s-timeout.md`。

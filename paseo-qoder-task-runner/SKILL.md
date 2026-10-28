@@ -69,5 +69,3 @@ Paseo 中的 Provider ID 是 `qoder`。先读取 Provider 当前默认模式和�
 - Qoder 的本地/远程对话恢复参数不适用于 Paseo Agent 管理；不要同时恢复同一任务。
 - Bypass Permissions 能执行高副作用操作，不能仅靠模型自律保证安全。
 - 不使用 `paseo stop --all` 或 `--cwd` 代替明确 Agent ID。
-
-相关 CLI 语义参考真源 Skill：`tmux-qoder-cli-workflow`；Paseo 创建流程参考 `/home/fenghaolin/workspace/prj/develop/openai/ai-dev-log/ops/paseo/creating-codex-tasks-with-paseo.md`。
