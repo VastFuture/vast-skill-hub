@@ -31,6 +31,7 @@
 | [tmux-qoder-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Qoder CLI(qodercli) 会话 — 断连恢复、对话恢复(--continue/--session-id)、--worktree 隔离并行、僵尸清理 ⭐NEW |
 | [tmux-opencode-workflow](#) (本仓目录) | 使用 tmux 持久化 OpenCode TUI/CLI 会话 — 断连恢复、会话恢复(--continue/--session/--fork)、--mini 轻量模式、并行任务、僵尸清理 ⭐NEW |
 | [tmux-cursor-workflow](tmux-cursor-workflow/) (本仓目录) | 使用 tmux 持久化 Cursor CLI 会话 — 默认 `agent --yolo`、chat 恢复、并行 worktree、进度诊断与安全清理 ⭐NEW |
+| [paseo-sdk-orchestrator](paseo-sdk-orchestrator/) (本仓目录) | 使用 Paseo TypeScript SDK (`@getpaseo/client`) 指导编码 Agent 实现 Provider 发现、并行/父子 Agent、跨 Host、事件监督、断线恢复与所有权清理。 ⭐NEW |
 | [paseo-codex-task-runner](paseo-codex-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Codex 后台编码任务 — daemon/Provider 检查、脏工作树保护、阻塞等待与独立复核 ⭐NEW |
 | [paseo-opencode-task-runner](paseo-opencode-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 OpenCode 后台任务 — Agent 模式、明确 cwd、安全等待与结果复核 ⭐NEW |
 | [paseo-kiro-task-runner](paseo-kiro-task-runner/) (本仓目录) | 通过 Paseo 创建和监督 Kiro CLI 后台任务 — Planner/Guide 模式、权限确认与最小权限边界 ⭐NEW |
