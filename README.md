@@ -26,6 +26,7 @@
 | [opencode-model-fallback](https://github.com/VastFuture/opencode-model-fallback) | Automatic model fallback for OpenCode — 自动切换备用模型，零停机时间 ⭐NEW |
 | [opencode-plugins-setup](#) (本仓目录) | OpenCode 核心生态插件一键安装 Skill — 模型降级/企微通知/CC桥接/Ralph自循环一键配置 ⭐NEW |
 | [remote-server-management](#) (本仓目录) | SSH 远程服务器管理 Skill — 引导式 SSH 密钥配置 + 8 种诊断操作 + 9 个生产坑 + 11 个管理命令，全程占位符可安全提交 |
+| [ssh-manager](ssh-manager/) (本仓目录) | SSH 免密管理与多服务器运维 Skill — 密钥生成+推送+验密+JSON真相源+上下文系统(机器特定&通用坑总结) ⭐NEW |
 | [tmux-agy-workflow](#) (本仓目录) | 使用 tmux 持久化 agy 会话 — 断连恢复、僵尸清理、多任务并行管理 ⭐NEW |
 | [tmux-kiro-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Kiro CLI 会话 — 断连恢复、对话恢复(--resume/--resume-id)、并行任务、僵尸清理 ⭐NEW |
 | [tmux-qoder-cli-workflow](#) (本仓目录) | 使用 tmux 持久化 Qoder CLI(qodercli) 会话 — 断连恢复、对话恢复(--continue/--session-id)、--worktree 隔离并行、僵尸清理 ⭐NEW |
